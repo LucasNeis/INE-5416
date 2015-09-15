@@ -6,9 +6,9 @@ def bubblesort(data):
         if i > 0:
             for j in range(i-1):
                 if data[j][0] < data[j+1][0]:
-                    aux = data[j][0]
-                    data[j][0] = data[j+1][0]
-                    data[j+1][0] = aux
+                    aux = data[j]
+                    data[j] = data[j+1]
+                    data[j+1] = aux
     return data
 sub = sys.argv
 if len(sys.argv) == 1:
