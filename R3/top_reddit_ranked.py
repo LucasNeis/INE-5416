@@ -29,4 +29,4 @@ for i in range(10):
     elements.append([data[j] for j in keys])
 bubblesort(elements)
 for info in elements:
-    print "Post: " + info[1] + "\nKarma: " + str(info[0]) + "\npost url: www.reddit.com" + info[2] + "\nlink: " + info[3] + "\n"
+    print "Post"+ "(" + str(info[0]) + "): " + info[1] + "\npost url: www.reddit.com" + info[2] + "\n"
